@@ -1,0 +1,40 @@
+.appComponent{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: #99ffff ;
+}
+.App{
+    text-align: center;
+}
+.box-style{
+    display: flex;
+    justify-content: center;
+    border: 2px solid rgb(195, 223, 12);
+    border-radius: 10px;
+}
+.box-child-style{
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:20px 0px;
+    margin: 20px;
+    width: 600px;
+    border: 2px solid rgb(32, 3, 253);
+    border-radius: 10px;
+}
+
+btn-style:hover{
+    background-color: red;
+    border-radius: 50;
+}
+
+
+@media screen and (max-width:750px) {
+    .box-style{
+        flex-wrap: wrap;
+    }
+}
+
