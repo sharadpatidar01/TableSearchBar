@@ -9,7 +9,7 @@ export default function SearchInApi() {
 
     useEffect(()=>{
         const fetchUsers= async ()=>{
-        const res= await axios.get(`http://localhost:5000/?q=${query}`)
+        const res= await axios.get(`https://tablesearchbarbackend.vercel.app/?q=${query}`)
         setData(res.data);
         }     
         // fetchUsers();   
